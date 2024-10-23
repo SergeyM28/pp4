@@ -39,7 +39,7 @@ public class Student implements Comparable<Student>{
 
     @Override
     public String toString() {
-        return name + " " + age +
+        return "\n" + name + " " + age +
                 ", averageGrade = " + new DecimalFormat( "#.##" ).format(averageGrade);
     }
 
